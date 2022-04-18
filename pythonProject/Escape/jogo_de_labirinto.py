@@ -12,3 +12,12 @@ elif comandos == 'sair':
 else :
     print('REINICIE O JOGO')
 
+print('='*100)
+print('Você tem dois caminhos, um ao NORTE e o outro a LESTE...')
+comandos = input('NORTE ou LESTE?')
+if comandos == 'NORTE':
+    print('Você foi para o norte')
+elif comandos == 'LESTE':
+    print('Você foi para o leste')
+
+
